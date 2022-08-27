@@ -1,0 +1,38 @@
+.home__notice{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: .5rem;
+}
+.home__notice--heading{
+    color: var(--color-secondary);
+    font-size: 1.5rem;
+}
+.home__notice--content{
+    font-size: 1.5rem;
+}
+@keyframes noticColorChange {
+    from {color: black;}
+  to {color: var(--color-primary);}
+  }
+.home__notice{
+    position: relative;
+    animation-name: noticColorChange;
+    animation-duration: 1s;
+    animation-iteration-count: 999;
+}
+.home__featureAndMap{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    padding: 1rem;
+}
+#map{
+    margin-left: .5rem;
+}
+.home__classes{
+    text-align: center;
+    background: var(--color-primary-var);
+    margin: 1rem;
+    margin-left: 9rem;
+    margin: 1rem;
+}

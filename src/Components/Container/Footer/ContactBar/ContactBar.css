@@ -1,0 +1,19 @@
+.contactBar{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background: var(--color-primary);
+    font-size: .6rem;
+    color: var(--color-light);
+}
+.contactBar__email{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.contactBar__phone{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}

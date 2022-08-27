@@ -1,0 +1,23 @@
+.facultyCard{
+    background: var(--color-primary-var);
+    height: 17rem;
+    width: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+.facultyCard__image{
+    background: var(--color-primary);
+    height: 10rem;
+    width: 10rem;
+    border-radius: 100%;
+}
+.facultyCard__image img{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 100%;
+    
+}

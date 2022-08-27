@@ -1,0 +1,19 @@
+.faculty{
+    text-align: center;
+}
+.faculty__card{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.faculty__card--upper{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.faculty__card--lower{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}

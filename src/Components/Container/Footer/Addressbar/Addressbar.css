@@ -1,0 +1,10 @@
+.addressbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-primary-var);
+    font-size: .7rem;
+}
+.addressbar h2{
+    padding: 1.5rem;
+}

@@ -1,0 +1,30 @@
+.feature{
+    text-align: center;
+    height: 20rem;
+    background: var(--color-primary-var);
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    overflow: hidden;
+}
+.feature__left{
+    width: 70rem;
+}
+.feature__left h1{
+    font-size: 2rem;
+}
+.feature__left--li{
+    text-align: left;
+    margin-left: 3rem;
+    font-size: .9rem;
+}
+
+.feature__right{
+    height: 20rem;
+    width: 90rem;
+    background: var(--color-primary);
+    transform: rotate(-45deg);
+    position: relative;
+    left: 7.5rem;
+    top: 3rem;
+}
