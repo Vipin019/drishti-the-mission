@@ -1,7 +1,7 @@
 .facultyCard{
     background: var(--color-primary-var);
     height: 17rem;
-    width: 15rem;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -20,4 +20,15 @@
     width: 10rem;
     border-radius: 100%;
     
+}
+
+/* =====================MEDIA QUERIES (MEDIUM DEVICIES)================== */
+@media screen and (max-width: 1024px){
+
+}
+/* =====================MEDIA QUERIES (SMALL DEVICIES)================== */
+@media screen and (max-width: 650px){
+  .facultyCard{
+        
+    }
 }

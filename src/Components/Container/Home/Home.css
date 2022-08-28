@@ -36,3 +36,30 @@
     margin-left: 9rem;
     margin: 1rem;
 }
+.home__faculty{
+    width: 100%;
+}
+
+
+/* =====================MEDIA QUERIES (MEDIUM DEVICIES)================== */
+@media screen and (max-width: 1024px){
+    .home__featureAndMap{
+        display: grid;
+        grid-template-columns: 70% 30%;
+        padding: 1rem;
+    }
+}
+/* =====================MEDIA QUERIES (SMALL DEVICIES)================== */
+@media screen and (max-width: 650px){
+    .home__notice>p{
+        font-size: 1rem;
+    }
+    .home__featureAndMap{
+        display: block;
+    }
+    #map{
+        margin: .5rem;
+        margin-top: 1.5rem;
+    }
+    
+}

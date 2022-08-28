@@ -1,19 +1,38 @@
 .faculty{
     text-align: center;
+    width: 100%;
 }
 .faculty__card{
     display: flex;
-    text-align: center;
+    align-items: center;
     justify-content: center;
     flex-direction: column;
+    width: 100%;
 }
 .faculty__card--upper{
+    width: 90%;
     display: flex;
-    text-align: center;
+    align-items: center;
     justify-content: center;
 }
 .faculty__card--lower{
     display: flex;
-    text-align: center;
+    align-items: center;
     justify-content: center;
+    width: 56%;
+}
+
+/* =====================MEDIA QUERIES (MEDIUM DEVICIES)================== */
+@media screen and (max-width: 1024px){
+    
+}
+/* =====================MEDIA QUERIES (SMALL DEVICIES)================== */
+@media screen and (max-width: 650px){
+    .faculty__card--upper{
+        flex-direction: column;
+    }
+    .faculty__card--lower{
+        flex-direction: column;
+        width: 90%;
+    }
 }

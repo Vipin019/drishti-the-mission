@@ -12,6 +12,7 @@ const Faculty = () => {
     <div className='faculty'>
       <div className="faculty__heding">
         <h1>Our Faculty</h1>
+      </div>
         <div className="faculty__card">
         <div className="faculty__card--upper">
         <Facultycard image={ImageRajendra} name="Rajendra Verma" details="Ex. Sub. Inspector"></Facultycard>
@@ -23,7 +24,7 @@ const Faculty = () => {
         <Facultycard image={Image} name="Santosh Pal" details="M.A., B.Ed"></Facultycard>
         </div>
         </div>
-      </div>
+      
     </div>
   )
 }

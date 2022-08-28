@@ -1,43 +1,78 @@
-.navbar{
-    height: 4rem;
-    width: 100%;
-    background: var(--color-primary-var);
-    display: grid;
-    grid-template-columns: 20% 10% 10% 10% 50%;
-    box-shadow: var(--color-primary-var) 0px 10px 10px -10px;
+.navbar {
+  height: 4rem;
+  width: 100%;
+  background: var(--color-primary-var);
+  display: grid;
+  grid-template-columns: 20% 10% 10% 10% 50%;
+  box-shadow: var(--color-primary-var) 0px 10px 10px -10px;
 }
-.navbar__name h1{
+.navbar__name h1 {
+  display: flex;
+  margin-left: 1rem;
+}
+.navbar__home {
+  margin-top: 2rem;
+}
+.navbar__contact {
+  margin-top: 2rem;
+}
+.navbar__about {
+  margin-top: 2rem;
+}
+#navbar__name--firstName {
+  color: var(--color-secondary);
+  font-size: 3rem;
+}
+#navbar__name--lastName {
+  color: var(--color-primary);
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+}
+.navbar__registration {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  margin-right: 1rem;
+  position: relative;
+  top: -0.5rem;
+}
+.navbar__registration--button {
+  height: 2rem;
+  width: 4rem;
+}
+.navbar__bar {
+  display: none;
+}
+
+/* =====================MEDIA QUERIES (MEDIUM DEVICIES)================== */
+@media screen and (max-width: 1024px) {
+  .navbar {
+    grid-template-columns: 30% 15% 15% 15% 25%;
+  }
+}
+/* =====================MEDIA QUERIES (SMALL DEVICIES)================== */
+@media screen and (max-width: 650px) {
+  .navbar {
     display: flex;
-    margin-left: 1rem;
-}
-.navbar__home{
-    margin-top: 2rem;
-}
-.navbar__contact{
-    margin-top: 2rem;
-}
-.navbar__about{
-    margin-top: 2rem;
-}
-#navbar__name--firstName{
-    color: var(--color-secondary);
-    font-size: 3rem;
-}
-#navbar__name--lastName{
-    color: var(--color-primary);
-    font-size: 1.5rem;
-    margin-top: 1.5rem;
-}
-.navbar__registration{
+    justify-content: space-between;
+  }
+  .navbar button {
+    display: none;
+  }
+  .navbar__bar {
     display: flex;
     align-items: center;
-    justify-content: right;
-    margin-right: 1rem;
-    position: relative;
-    top: -.5rem;
-}
-.navbar__registration--button{
-    height: 2rem;
-    width: 4rem;
-    
+    justify-content: center;
+    padding: 1rem;
+    font-size: 1.3rem;
+  }
+  .smallNavbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: var(--color-primary-var) 0px 10px 10px -10px;
+  }
+  .smallNavbar>div{
+    margin: .3rem;
+  }
 }

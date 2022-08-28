@@ -4,7 +4,6 @@
     background: var(--color-primary-var);
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
     overflow: hidden;
 }
 .feature__left{
@@ -25,6 +24,33 @@
     background: var(--color-primary);
     transform: rotate(-45deg);
     position: relative;
-    left: 7.5rem;
+    left: 7.9rem;
     top: 3rem;
+}
+
+
+/* =====================MEDIA QUERIES (MEDIUM DEVICIES)================== */
+@media screen and (max-width: 1024px){
+    .feature__right{
+        position: relative;
+        left: 10rem;
+        top: 3rem;
+    }
+}
+/* =====================MEDIA QUERIES (SMALL DEVICIES)================== */
+@media screen and (max-width: 650px){
+    .feature__right{
+        position: relative;
+        left: 4.5rem;
+        top: 4.9rem; 
+        height: 20rem;
+        width: 50rem;
+        transform: rotate(45deg);
+    }
+    
+    .feature__left{
+        width: 150rem;
+        position: relative;
+        left: 2.5rem;
+    }
 }

@@ -32,3 +32,12 @@ button:hover{
 a,Link{
     text-decoration: none;
 }
+
+/* =====================MEDIA QUERIES (MEDIUM DEVICIES)================== */
+@media screen and (max-width: 1024px){
+    
+  }
+  /* =====================MEDIA QUERIES (SMALL DEVICIES)================== */
+@media screen and (max-width: 650px){
+    
+  }
