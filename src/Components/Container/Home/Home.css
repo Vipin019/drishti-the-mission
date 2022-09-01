@@ -40,7 +40,6 @@
     width: 100%;
 }
 
-
 /* =====================MEDIA QUERIES (MEDIUM DEVICIES)================== */
 @media screen and (max-width: 1024px){
     .home__featureAndMap{
@@ -52,12 +51,13 @@
 /* =====================MEDIA QUERIES (SMALL DEVICIES)================== */
 @media screen and (max-width: 650px){
     .home__notice>p{
-        font-size: 1rem;
+        font-size: .8rem;
     }
     .home__featureAndMap{
         display: block;
     }
     #map{
+        
         margin: .5rem;
         margin-top: 1.5rem;
     }

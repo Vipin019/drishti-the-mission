@@ -1,0 +1,6 @@
+POST http://localhost:4000/app/link
+Content-Type: application/json
+
+{
+    "link": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN7xcNLsQyjRvTvZMbJLa7dflZt8ylEG1Q0w&usqp=CAU"
+}

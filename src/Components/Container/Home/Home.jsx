@@ -6,6 +6,7 @@ import Map from './Map'
 import Faculty from './Faculty'
 import Footer from '../../Container/Footer/Footer'
 import { Link } from "react-router-dom";
+import Main from '../../Gallery/Frontend/Main'
 
 
 const Home = () => {
@@ -26,10 +27,13 @@ const Home = () => {
     </div>
     <div className="home__classes">
       <h1>Classes</h1>
-      <p>UPPSC, RO/ARO, TET, SUPER TET, PET, UPP</p>
+      <p>UPPCS, RO/ARO, TET, SUPER TET, PET, UPP</p>
     </div>
     <div className="home__faculty">
     <Faculty></Faculty>
+    </div>
+    <div className="home__gallery">
+      <Main></Main>
     </div>
     <div className="home__footer">
       <Footer></Footer>

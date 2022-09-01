@@ -9,7 +9,7 @@ const ContactBar = () => {
             Email :
         </h2>
         <h2 className="contactBar__email--details">
-            xyz@gmail.com
+            rajmail019@gmail.com
         </h2>
       </div>
       <div className="contactBar__phone">
@@ -17,7 +17,7 @@ const ContactBar = () => {
             Phone No. :
         </h2>
         <h2 className="contactBar__phone--details">
-            +918299807983, +917997327556
+            +918299807983, +917897327556
         </h2>
       </div>
     </div>

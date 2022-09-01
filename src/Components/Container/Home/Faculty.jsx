@@ -4,8 +4,9 @@ import Facultycard from './Facultycard'
 import ImageRajendra from '../../ImagesAndIcons/Rajendra.png'
 import ImageAlok from '../../ImagesAndIcons/Alok.png'
 import ImageKshitindra from '../../ImagesAndIcons/Kshitindra.png'
-// import Image from '../../ImagesAndIcons/Rajendra.png'
-// import Image from '../../ImagesAndIcons/Rajendra.png'
+import ImageSKYadav from '../../ImagesAndIcons/SKYadav.png'
+import Dmy from '../../ImagesAndIcons/Dmy.webp'
+
 
 const Faculty = () => {
   return (
@@ -16,12 +17,12 @@ const Faculty = () => {
         <div className="faculty__card">
         <div className="faculty__card--upper">
         <Facultycard image={ImageRajendra} name="Rajendra Verma" details="Ex. Sub. Inspector"></Facultycard>
-        <Facultycard image={ImageAlok} name="Aalok Shukla" details="M.A., M.Sc., B.Ed"></Facultycard>
+        <Facultycard image={ImageAlok} name="Alok Shukla" details="M.A., M.Sc., B.Ed"></Facultycard>
         <Facultycard image={ImageKshitindra} name="Kshitindra Singh" details="M.Sc., B.Ed"></Facultycard>
         </div>
         <div className="faculty__card--lower">
-        <Facultycard image={Image} name="S. K. Yadav" details="M.Sc., B.Ed"></Facultycard>
-        <Facultycard image={Image} name="Santosh Pal" details="M.A., B.Ed"></Facultycard>
+        <Facultycard image={ImageSKYadav} name="S. K. Yadav" details="M.Sc., B.Ed"></Facultycard>
+        <Facultycard image={Dmy} name="Santosh Pal" details="M.A., B.Ed"></Facultycard>
         </div>
         </div>
       

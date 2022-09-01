@@ -19,7 +19,7 @@ const Navbar = () => {
           <div className="navbar__name">
             <h1>
               <h1 id="navbar__name--firstName">दृष्टि</h1>
-              <h2 id="navbar__name--lastName">द मिशन</h2>
+              <h2 id="navbar__name--lastName">PCS</h2>
             </h1>
           </div>
         </Link>
@@ -78,7 +78,7 @@ const Navbar = () => {
           <div className="navbar__name">
             <h1>
               <h1 id="navbar__name--firstName">दृष्टि</h1>
-              <h2 id="navbar__name--lastName">द मिशन</h2>
+              <h2 id="navbar__name--lastName">PCS</h2>
             </h1>
           </div>
         </Link>

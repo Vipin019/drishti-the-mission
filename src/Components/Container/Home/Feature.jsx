@@ -11,7 +11,7 @@ const Feature = () => {
         <li>High level study material</li>
         <li>Regular test series</li>
         <li>Special focus on Maths and Reasoning</li>
-        <li>Group dialogue arrangement</li>
+        <li>Group discussion facility</li>
         </ul>
       </div>
       <div className="feature__right">

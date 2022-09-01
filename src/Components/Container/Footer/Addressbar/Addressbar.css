@@ -16,6 +16,6 @@
 /* =====================MEDIA QUERIES (SMALL DEVICIES)================== */
 @media screen and (max-width: 650px){
     .addressbar h2{
-        padding: .5rem;
+        padding: .4rem;
     }
 }
