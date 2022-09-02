@@ -11,7 +11,7 @@ const Main = () => {
   }])
  
   useEffect(() =>{
-    fetch("http://localhost:4000/app/link").then(res=>{
+    fetch("https://obscure-badlands-21151.herokuapp.com/app/link").then(res=>{
       if(res.ok){
         return res.json();
       }

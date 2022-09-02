@@ -5,9 +5,9 @@ import axios from 'axios'
 import './Upload.css'
 import Help from '../ImagesAndIcones/help.mp4'
 
-function redirector(){
-  window.location.href="/"
-}
+// function redirector(){
+//   window.location.href="/"
+// }
 
 export default class Upload extends Component {
   constructor(){
@@ -53,7 +53,7 @@ export default class Upload extends Component {
          />
          </div>
          <div className="form-group">
-         <input id='upload__btn' type="submit" value="Submit" onClick={redirector} class="form-control btn"/>
+         <input id='upload__btn' type="submit" value="Submit" class="form-control btn"/>
         </div>
         </form>
         <div id="upload__help">
