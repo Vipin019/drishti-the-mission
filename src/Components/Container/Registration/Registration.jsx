@@ -2,26 +2,38 @@ import React,{useState} from "react";
 import "./Registration.css";
 import Navbar from "../../Navbar/Navbar";
 import Footer from "../Footer/Footer";
-import CommingSoon from "../../CommingSoon/CommingSoon";
+// import CommingSoon from "../../CommingSoon/CommingSoon";
 
-const Registration = () => {
-  // const[userInput, setUserInput]=useState[{
-  //   name:'',
-  //   contactNo:'',
-  //   email:'',
-  //   targetExam:'',
-  // }]
+const Registration = (input) => {
+  const[userInput, setUserInput]=useState({
+    name:'',
+    contactNo:'',
+    email:'',
+    targetExam:''
+  })
 
-  // function handleOnInput(event){
+  function handleOnInput(event){
 
-  // }
+  }
+  function handleSubmit(event){
+
+  }
+  function handleSubmit(event){
+    let enteredInput={
+      name:event.value,
+      contactNo:event.value,
+      email:"",
+      targetExam:""
+    }
+    setUserInput(enteredInput);
+  }
+  
 
 
   return (
     <div className="registration">
       <Navbar></Navbar>
-      <CommingSoon></CommingSoon>
-      {/* <form>
+      <form>
         <div class="form-group">
           <label for="inputName">Name : </label>
           <input
@@ -69,7 +81,7 @@ const Registration = () => {
         <div className="form-group">
           <button onClick={handleSubmit}>Submit</button>
         </div>
-      </form> */}
+      </form>
       <Footer></Footer>
     </div>
   );
