@@ -20,9 +20,9 @@ router.post('/registration',function(req,res){
 
 });
 
-// router.route('/link').get((req,res) => {
-//     linkTempletCopy.find()
-//     .then(foundLink=>res.json(foundLink))
-// })
+router.route('/regestered').get((req,res) => {
+    registrationTempletCopy.find()
+    .then(foundLink=>res.json(foundLink))
+})
 
 module.exports=router;
